@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include nascan_print_formats *.css
+recursive-include nascan_print_formats *.csv
+recursive-include nascan_print_formats *.html
+recursive-include nascan_print_formats *.ico
+recursive-include nascan_print_formats *.js
+recursive-include nascan_print_formats *.json
+recursive-include nascan_print_formats *.md
+recursive-include nascan_print_formats *.png
+recursive-include nascan_print_formats *.py
+recursive-include nascan_print_formats *.svg
+recursive-include nascan_print_formats *.txt
+recursive-exclude nascan_print_formats *.pyc
