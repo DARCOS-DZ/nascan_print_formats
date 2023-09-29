@@ -6,7 +6,9 @@ app_publisher = "SARL DARCOS"
 app_description = "print formats"
 app_email = "contact@darcos.dz"
 app_license = "MIT"
-
+fixtures = [
+    {"dt": "Print Format", "filters": [["standard", "=", "no"]]},
+]
 # Includes in <head>
 # ------------------
 
